@@ -1,0 +1,14 @@
+download node.js-->
+instal it with all permission-->
+go to your code space(vs code) create a new folder for tailwind-->
+open terminal( go to view-> click on terminal->)-->
+open the tailwind website in your web-->
+get these link and paste in the terminal with added "vite"->(npm install -D tailwindcss vite)-->
+it will take some time to process-->
+get the another link from the website and paste in the terminal with added "-p" ->(npx tailwindcss init -p)
+new pacakages appears in the folder-->
+open "tailwind.config.js" and add "content:["*"]"
+open "package.json" and add 
+"scripts": {
+    "start": "vite"
+  },"
